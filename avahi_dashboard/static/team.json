@@ -1,0 +1,65 @@
+{
+  "AvahiSupportTeam": [
+    {
+      "name": "Abuzar Shaikh",
+      "title": "Site Reliability Engineer",
+      "email": "abuzar.shaikh@sgkinc.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=abuzar.shaikh@sgkinc.com",
+      "profile_pic": "/assets/profile-pics/abuzar.jpg"
+    },
+    {
+      "name": "Dada Peer",
+      "title": "Site Reliability Engineer",
+      "email": "dada.peer@sgkinc.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=dada.peer@sgkinc.com",
+      "profile_pic": "/assets/profile-pics/dada.jpg"
+    },
+    {
+      "name": "Devendra Talhande",
+      "title": "Site Reliability Engineer",
+      "email": "devendra.talhande@sgkinc.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=devendra.talhande@sgkinc.com",
+      "profile_pic": "/assets/profile-pics/devendra.jpg"
+    },
+    {
+      "name": "Mangesh Kaslikar",
+      "title": "Technical Project Manager",
+      "email": "mangesh.kaslikar@sgkinc.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=mangesh.kaslikar@sgkinc.com",
+      "profile_pic": "/assets/profile-pics/mangesh.jpg"
+    },
+    {
+      "name": "Juan Pablo",
+      "title": "Engineering Lead",
+      "email": "juan.pablo@sgkinc.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=juan.pablo@sgkinc.com",
+      "profile_pic": "/assets/profile-pics/juan.jpg"
+    }
+  ],
+  "InfrastructureTeam": [
+    {
+      "name": "Jason French",
+      "title": "AWS Cloud Architect",
+      "email": "jason.french@propelis.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=jason.french@propelis.com",
+      "profile_pic": "/assets/profile-pics/jason.jpg",
+      "working_hours": "M-F 8am-5pm EST"
+    },
+    {
+      "name": "Tim Hutchko",
+      "title": "Manager",
+      "email": "thutchko@propelis.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=thutchko@propelis.com",
+      "profile_pic": "/assets/profile-pics/tim.jpg",
+      "working_hours": "M-F 8am-5pm EST"
+    },
+    {
+      "name": "Phil Tingle",
+      "title": "AWS Cloud Architect",
+      "email": "phil.tingle@propelis.com",
+      "teams": "https://teams.microsoft.com/l/chat/0/0?users=phil.tingle@propelis.com",
+      "profile_pic": "/assets/profile-pics/phil.jpg",
+      "working_hours": "M-F 8am-5pm UK"
+    }
+  ]
+}

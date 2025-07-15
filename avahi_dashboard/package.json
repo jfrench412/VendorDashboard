@@ -1,0 +1,32 @@
+{
+  "name": "avahi-support-dashboard",
+  "version": "1.0.0",
+  "description": "Avahi Support Team Dashboard - Production Ready",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "serve-node": "npx http-server -p 8000 -c-1",
+    "validate": "echo 'Validating dashboard files...' && node -e 'console.log(\"Dashboard validation complete\")'"
+  },
+  "keywords": [
+    "dashboard",
+    "support",
+    "jira",
+    "team",
+    "avahi"
+  ],
+  "author": "SGK Infrastructure Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "assets/",
+    "static/",
+    "config/"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

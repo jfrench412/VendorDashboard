@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avahi Support Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="config/jira-config.js"></script>
+    <script src="js/jira-service.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Avahi Support Dashboard</h1>
+                <div class="header-info">
+                    <div class="timezone-clocks">
+                        <div class="timezone-item">
+                            <div class="timezone-label">EST</div>
+                            <div class="timezone-time" id="estTime"></div>
+                        </div>
+                        <div class="timezone-item">
+                            <div class="timezone-label">UK</div>
+                            <div class="timezone-time" id="ukTime"></div>
+                        </div>
+                    </div>
+                    <div class="current-date" id="currentDate"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Current Shift Status -->
+            <section class="current-shift-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-user-clock"></i> Who's Working Now</h2>
+                    </div>
+                    <div class="card-content">
+                        <div id="currentShiftInfo" class="current-engineers-info">
+                            <div class="shift-loading">Loading current engineer information...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dashboard Grid -->
+            <div class="dashboard-grid">
+                <!-- Team Directory -->
+                <section class="team-section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2><i class="fas fa-users"></i> Support Team</h2>
+                        </div>
+                        <div class="card-content">
+                            <div id="teamDirectory" class="team-grid">
+                                <div class="loading">Loading team information...</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Recent Jira Tickets -->
+                <section class="tickets-section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2><i class="fas fa-ticket-alt"></i> Recent Tickets</h2>
+                            <div class="ticket-controls">
+                                <button id="refreshTickets" class="btn-refresh" title="Refresh tickets">
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>
+                                <div id="jiraStatus" class="jira-status"></div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div id="jira-error" class="jira-error" style="display: none;"></div>
+                            <div id="jiraTickets" class="tickets-list">
+                                <div class="loading">Loading ticket information...</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Infrastructure Team -->
+            <section class="infrastructure-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-cloud"></i> Infrastructure Team</h2>
+                    </div>
+                    <div class="card-content">
+                        <div id="infrastructureDirectory" class="team-grid">
+                            <div class="loading">Loading infrastructure team information...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Weekly Schedule -->
+            <section class="schedule-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-calendar-alt"></i> Weekly Schedule</h2>
+                    </div>
+                    <div class="card-content">
+                        <div id="weeklySchedule" class="schedule-container">
+                            <div class="loading">Loading schedule information...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Propelis Group - Avahi Support Team</p>
+        </div>
+    </footer>
+
+    <script src="js/dashboard.js?v=1.5"></script>
+</body>
+</html>

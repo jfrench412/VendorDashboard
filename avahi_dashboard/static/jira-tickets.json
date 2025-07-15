@@ -1,0 +1,67 @@
+{
+  "tickets": [
+    {
+      "key": "SD-123",
+      "title": "Database performance optimization needed",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Abuzar Shaikh",
+      "updated": "2025-07-15",
+      "url": "https://sgkservices.atlassian.net/browse/SD-123"
+    },
+    {
+      "key": "SD-124",
+      "title": "SSL certificate renewal for production",
+      "status": "To Do",
+      "priority": "Medium",
+      "assignee": "Dada Peer",
+      "updated": "2025-07-14",
+      "url": "https://sgkservices.atlassian.net/browse/SD-124"
+    },
+    {
+      "key": "SD-125",
+      "title": "Monitoring alerts configuration",
+      "status": "Done",
+      "priority": "Low",
+      "assignee": "Devendra Talhande",
+      "updated": "2025-07-13",
+      "url": "https://sgkservices.atlassian.net/browse/SD-125"
+    },
+    {
+      "key": "SD-126",
+      "title": "Load balancer health check issues",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Mangesh Kaslikar",
+      "updated": "2025-07-15",
+      "url": "https://sgkservices.atlassian.net/browse/SD-126"
+    },
+    {
+      "key": "SD-127",
+      "title": "Backup system verification",
+      "status": "To Do",
+      "priority": "Medium",
+      "assignee": "Juan Pablo",
+      "updated": "2025-07-12",
+      "url": "https://sgkservices.atlassian.net/browse/SD-127"
+    },
+    {
+      "key": "SD-128",
+      "title": "Network security audit completion",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Abuzar Shaikh",
+      "updated": "2025-07-14",
+      "url": "https://sgkservices.atlassian.net/browse/SD-128"
+    },
+    {
+      "key": "SD-129",
+      "title": "Update documentation for deployment process",
+      "status": "To Do",
+      "priority": "Low",
+      "assignee": "Dada Peer",
+      "updated": "2025-07-11",
+      "url": "https://sgkservices.atlassian.net/browse/SD-129"
+    }
+  ]
+}

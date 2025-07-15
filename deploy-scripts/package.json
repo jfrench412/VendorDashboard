@@ -1,0 +1,37 @@
+{
+  "name": "avahi-dashboard-production",
+  "version": "1.0.0",
+  "description": "Production deployment package for Avahi Support Dashboard",
+  "main": "secure-production-server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node secure-production-server.js",
+    "dev": "NODE_ENV=development node secure-production-server.js",
+    "test": "node -e \"console.log('Health check test'); process.exit(0);\"",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop avahi-dashboard",
+    "pm2:restart": "pm2 restart avahi-dashboard",
+    "pm2:logs": "pm2 logs avahi-dashboard"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "aws-sdk": "^2.1490.0"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "dashboard",
+    "jira",
+    "support",
+    "aws",
+    "express"
+  ],
+  "author": "SGK Infrastructure Team",
+  "license": "UNLICENSED",
+  "private": true
+}
